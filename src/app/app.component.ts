@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ToolTipComponent } from './tool-tip/tool-tip.component';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'tooltipangulartask';
+  tooltipComponent = ToolTipComponent;
 }

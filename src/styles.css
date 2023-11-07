@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+body{
+    background-image: url(assets/background.png);
+}
+.custom-tooltip-class{
+    background-color: #232F34;
+    color: white;
+    padding: 16px;
+    border-radius: 8px;
+}

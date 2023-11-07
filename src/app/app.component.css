@@ -1,0 +1,23 @@
+.aligner {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+}
+
+.aligner-item {
+  max-width: 50%;
+}
+
+.headline{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.mybutton{
+  background-color: pink;
+  margin-top: 40vh;
+  width: 500px;
+  height: 100px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: none;
+}
